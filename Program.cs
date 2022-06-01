@@ -1,2 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+Words w = new Words();
+Console.WriteLine(w.generateWord());
+
+Parachute p = new Parachute();
+p.createParachute();
